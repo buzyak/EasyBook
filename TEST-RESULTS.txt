@@ -1,0 +1,13 @@
+EasyBook v0.2.1 validation
+
+PASS: Python syntax/compile check (backend, bot, run.py)
+PASS: JavaScript syntax check (miniapp/app.js)
+PASS: Telegram auto theme logic present
+PASS: light/dark olive/sage themes present
+PASS: 24-hour custom schedule selectors present
+PASS: reschedule confirmation UI present
+PASS: reschedule error feedback present
+PASS: availability can exclude current booking during reschedule
+PASS: Europe/Moscow remains the default timezone
+
+Note: full integration test with aiosqlite was not executed in the build container because that dependency is not installed there. It is included in requirements.txt for the project runtime.

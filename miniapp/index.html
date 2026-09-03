@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no" />
+  <meta name="theme-color" content="#f5f2ea" id="themeMeta" />
+  <title>EasyBook</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">EASYBOOK</div>
+        <h1 id="brand">EasyBook</h1>
+      </div>
+      <button class="avatar" id="avatar" type="button">EB</button>
+    </header>
+
+    <main id="content">
+      <section class="splash card">
+        <div class="spinner"></div>
+        <h2>Открываем EasyBook</h2>
+        <p class="muted">Получаем настройки и свободное время…</p>
+      </section>
+    </main>
+
+    <nav id="bottomNav" class="bottom-nav hidden"></nav>
+  </div>
+
+  <button id="themeToggle" class="theme-toggle" type="button" aria-label="Переключить тему" title="Переключить тему">
+    <span class="theme-icon theme-icon-sun">☀</span>
+    <span class="theme-icon theme-icon-moon">☾</span>
+  </button>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
